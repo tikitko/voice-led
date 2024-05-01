@@ -5,7 +5,7 @@ use voskrust::sound::*;
 const HOST: &'static str = "http://localhost:70/";
 const MODEL: &'static str = "./vosk-model-small-ru-0.22";
 const TIME_RANGE_START_HOUR: u32 = 1;
-const TIME_RANGE_END_HOUR: u32 = 16;
+const TIME_RANGE_END_HOUR: u32 = 18;
 
 const WORDED_ACTIONS: &[(&'static str, LedAction)] = &[
     ("свет", LedAction::Power(true)),
