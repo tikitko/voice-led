@@ -1,0 +1,9 @@
+[package]
+name = "voice-led"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+voskrust = { git = "https://github.com/tikitko/voskrust.git" }
+reqwest = { version = "0.12.3", features = ["blocking"] }
+chrono = "0.4.38"
